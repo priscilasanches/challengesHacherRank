@@ -1,2 +1,3 @@
-# algoritmosHackerRank
-Algoritmos desenvolvidos nos desafios Hacker Rank
+## Hacker Rank
+
+Algoritmos desenvolvidos em JavaScript(Node.js) como solução aos desafios da plataforma Hacker Rank.
