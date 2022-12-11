@@ -3,7 +3,7 @@
      1. INTEGER i - initial number
      2. INTEGER j - final number
      3. INTEGER k - divisor
-    return number of numbers (within the range) whose difference between it and its reverse are divisible by k
+    return quant. of numbers (within the range) whose difference between it and its reverse are divisible by k
 */
 function beautifulDays(i, j, k) {
     
