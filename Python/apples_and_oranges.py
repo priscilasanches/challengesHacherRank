@@ -10,7 +10,6 @@
     The first integer: the number of apples that fall on Sam's house.
     The second integer: the number of oranges that fall on Sam's house.
 '''
-
 def count_apples_and_oranges(s, t, a, b, apples, oranges):
     
     fallen_apple = [a + d for d in apples if (a+d)>=s and (a+d)<=t]
@@ -19,8 +18,7 @@ def count_apples_and_oranges(s, t, a, b, apples, oranges):
     print(len(fallen_apple))
     print(len(fallen_orange))
 
-
-#exemplo
+#example
 startHouse = 2
 endHouse = 3
 posTreeAplle = 1

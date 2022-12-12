@@ -5,7 +5,6 @@
      3. INTEGER k - divisor
     return quant. of numbers (within the range) whose difference between it and its reverse are divisible by k
 ''' 
-
 def beautiful_days(i,j,k):
     beautiful_days = 0
     
@@ -19,5 +18,5 @@ def beautiful_days(i,j,k):
     
     return beautiful_days
 
-#exemplo
-print(beautiful_days(13, 45, 1))
+#example
+print(beautiful_days(13, 45, 2))
