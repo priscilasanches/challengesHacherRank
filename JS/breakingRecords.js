@@ -1,5 +1,8 @@
-//retorna array com número de vezes de recorde quebrado para mais e para menos, respectivamente
-
+/*
+    breakingRecords has the following parameter(s):
+        int scores[n]: points scored per game
+    Returns int[2]: An array with the numbers of times she broke her records. Index 0 is for breaking most points records, and index 1 is for breaking least points records.
+*/
 function breakingRecords(scores) {
 
     let mostPointsRecords = 0
@@ -8,12 +11,10 @@ function breakingRecords(scores) {
     let minimumPoint = scores[0]
     
     for(let i=1; i<scores.length; i++) {
-        //encontrar número de recordes quebrados de mais pontos
         if(scores[i] > maximumPoint) {
             maximumPoint = scores[i]
             mostPointsRecords++
         }
-        //encontrar número de recordes quebrados de menos pontos
         if(scores[i] < minimumPoint) {
             minimumPoint = scores[i]
             leastPointsRecords++
