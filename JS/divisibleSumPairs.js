@@ -1,11 +1,3 @@
-/* Complete the 'divisibleSumPairs' function below.
-* The function is expected to return an INTEGER. -> número de pares
-* The function accepts following parameters:
-*  1. INTEGER n - tamanho do array
-*  2. INTEGER k - divisor
-*  3. INTEGER_ARRAY ar
-*/
-
 function divisibleSumPairs(n, k, ar) {
 
     let pairs = 0
