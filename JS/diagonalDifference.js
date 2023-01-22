@@ -15,4 +15,3 @@ const arr = [[1, 2, 3],
              [9, 8, 9]];
 
 console.log(diagonalDifference(arr))
-

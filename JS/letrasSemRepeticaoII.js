@@ -60,7 +60,6 @@ function retornaStringSemRepeticao (string) {
     return stringSemRepeticao
 }
 
-
 // console.log(retornaStringSemRepeticao("oo ratoato roeuoeu aa roupaoupa dodo reiei dee Romama"))
 // console.log(retornaStringSemRepeticao("a bananeira tem banana"))
 // console.log(retornaStringSemRepeticao("badalada"))

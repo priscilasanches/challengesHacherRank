@@ -1,7 +1,4 @@
-//soma de qq linha, coluna ou diagonal são iguais. Em uma matriz 3x3 essa soma é igual a 15
-//custo da transformação |a-b|
-//transformar um array em magic square com mínimo custo (não pode ter números repetidos)
-//s - array de arrays
+//EM IMPLEMENTAÇÃO
 
 function formingMagicSquare(s) {
     const sum = 15

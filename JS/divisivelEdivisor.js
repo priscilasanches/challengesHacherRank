@@ -1,5 +1,5 @@
 function getTotalX(a, b) {
-    // retornar qts números são simultaneamente divisíveis por a e divisores de b
+
     Array.isArray(a) ? a=a : a=[a]
     Array.isArray(b) ? b=b : b=[b]
     

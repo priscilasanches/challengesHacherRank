@@ -1,6 +1,3 @@
-//n - number of pages; p - page to turn to
-//retornar número mínimo de viradas, podendo começar da frente ou de trás
-
 function pageCount(n, p) {
     //trabalhando apenas com páginas ímpares
     if (p%2===0) p++ 
@@ -16,4 +13,3 @@ function pageCount(n, p) {
 }
 
 console.log(pageCount(11, 11))
-

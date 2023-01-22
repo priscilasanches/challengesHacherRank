@@ -1,11 +1,3 @@
-/*
-countingValleys has the following parameter(s):
-    int steps: the number of steps on the hike
-    string path: a string describing the path (D - down / U - up)
-Returns
-    int: the number of valleys traversed (valleys height < 0)
-*/
-
 function countingValleys(steps, path) {
     let height = 0
     let valley = 0
@@ -21,5 +13,4 @@ function countingValleys(steps, path) {
     return valley
 }
 
-//example
 console.log(countingValleys(8, 'UDDDUDUU'))

@@ -1,5 +1,3 @@
-//c - array com configuração das nuvens e k- distância de cada salto
-//jogo termina qd voltar para a nuvem de id 0
 function jumpingOnClouds(c, k) {
     let energy = 100
     let cloud = 0

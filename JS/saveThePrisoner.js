@@ -1,13 +1,3 @@
-/*
- * Complete the 'saveThePrisoner' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER n - número de prisioneiros
- *  2. INTEGER m -número de doces
- *  3. INTEGER s - cadeira pela qual começa a distribuição
- */
-
 function saveThePrisoner(n, m, s) {
     let candies = m
 

@@ -37,5 +37,3 @@ const string = "5 2 2 2 4 1 1 2 4 2 2 2 4 1 2 4 1 2 4 4 3 2 3 1 3 3 4  4 5 1 4 4
 const arr = string.replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10))
 
 console.log(migratoryBirds(arr))
-
-

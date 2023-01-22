@@ -14,10 +14,3 @@ function designerPdfViewer(h, word) {
 }
 
 console.log(designerPdfViewer([1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5], 'hoje'))
-
-/*
- * The function is expected to return an INTEGER.- word area
- * The function accepts following parameters:
- *  1. INTEGER_ARRAY h - height of each letter (a id = 0 [....] z id = 25)
- *  2. STRING word - width of each letter is 1mm
- */

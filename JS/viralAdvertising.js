@@ -1,6 +1,3 @@
-//When they launch a new product, they advertise it to exactly 5 people on social media [...] half (floor) of those people like the advertisement and each shares it with 3 of their friends..and so on
-//n - numbers of days / return - cumulative likes
-
 function viralAdvertising(n) {
 
     const likesAndShared = (group) => {

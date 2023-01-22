@@ -12,7 +12,3 @@ function sockMerchant(n, ar) {
 }
 
 console.log(sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]))
-
-//n - número de meias
-//arr - cada índice representa a cor de uma meia (por numeros)
-//retorar o número de pares feitos de meias de mesma cor

@@ -13,7 +13,6 @@ def day_of_programmer(year):
 #example
 print(day_of_programmer(2022))
 
-
 '''year - 1700 a 2700 (Russia)
 1700 a 1917 - Julian Calendar
 1918 (transition) - next day after January 31st was February 14th. This means that in 1918, February 14th was the 32nd day of the year in Russia.
