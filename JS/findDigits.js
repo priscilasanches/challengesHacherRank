@@ -7,5 +7,4 @@ function findDigits(n) {
     return divisibles
 }
 
-
 console.log(findDigits(111))
